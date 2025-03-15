@@ -1,0 +1,18 @@
+const planoMobile = document.querySelector('.card.mobile');
+const planoMultitelas = document.querySelector('.card.multiscreen');
+
+planoMobile.addEventListener('mouseover', () => {
+  planoMultitelas.classList.add('effect');
+});
+
+planoMobile.addEventListener('mouseout', () => {
+  planoMultitelas.classList.remove('effect');
+});
+
+planoMultitelas.addEventListener('mouseover', () => {
+  planoMobile.classList.add('effect');
+});
+
+planoMultitelas.addEventListener('mouseout', () => {
+  planoMobile.classList.remove('effect');
+});
