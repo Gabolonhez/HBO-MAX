@@ -4,6 +4,7 @@
     --primary-color: #020228;
     --secondary-color: #ff00e5;
     --tertiary-color: #b535f6;
+    --fourth-color: #01011f;
     --btn-bg-color-gradient: linear-gradient(10deg, #9b34ef 10%, #490cb0 50%);
     --btn-link-bg-color: #fff;
     --btn-link-color: #000;
@@ -38,6 +39,14 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background: var(--link-color);
     border-radius: 10px;
+}
+
+header {
+    animation: gradient 10s ease infinite alternate;
+    background: linear-gradient(-45deg, #56125b, #0f0f10, #271e6e);
+    background-size: 400% 400%;
+
+    box-shadow: 10px 15px 10px rgb(11, 8, 48);
 }
 
 nav .nav__container {
@@ -116,7 +125,6 @@ nav .nav__container img {
     margin-top: 50px;
 }
 
-
 .header__tittles h2 {
     font-size: 2rem;
     text-transform: uppercase;
@@ -168,6 +176,7 @@ nav .nav__container img {
 
     animation: wiggle 3s ease-in-out infinite;
 
+    margin-bottom: 150px;
 }
 
 .offer__link a {
@@ -194,7 +203,6 @@ nav .nav__container img {
     transition: 2s;
 }
 
-
 .offer__link p {
     margin-top: 50px;
     font-size: 0.9rem;
@@ -213,6 +221,7 @@ nav .nav__container img {
 
     background: url("../images/background-movies-series.png");
     background-size: cover;
+    box-shadow: 5px 5px 10px var(--fourth-color);
 
 }
 
@@ -419,6 +428,54 @@ nav .nav__container img {
 }   
 
 
+.footer__content {
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 150px;
+}
+.footer__links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--link-color);
+    font-weight: bold;
+}
+.footer__links a:hover {
+    color: var(--btn-link-bg-color);
+    transition: 0.5s;
+}
+
+.footer__rights {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.footer__rights p {
+    color: var(--link-color);
+    font-weight: 300;
+    font-size: 0.7rem;;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.footer__social img:hover {
+    transform: scale(1.20);
+}
 
 @keyframes wiggle {
         0%, 10% {
