@@ -1,6 +1,5 @@
 # HBO Max
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/a60328bf-4046-434b-aecb-2d2e45986274)
 
 ## 📑 Descrição
 Protótipo do site da HBO Max, com algumas modificações.
