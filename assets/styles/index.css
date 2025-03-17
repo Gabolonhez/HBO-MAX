@@ -477,6 +477,58 @@ nav .nav__container img {
     transform: scale(1.20);
 }
 
+@media screen and (max-width: 728px) {
+    .nav__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .header__channels {
+        gap: 20px;
+    }
+    .header__channels img {
+        width: 40px;
+    }
+    .header__tittles {
+        text-align: center;
+    }
+    .header__tittles h2, h1 {
+        font-size: 30px;
+    }
+    .subscription__cards {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .subscription__cards .card {
+        flex-wrap: wrap;
+    }
+    .subscription__content h1 {
+        font-size: 20px;
+        width: 300px;
+        
+    }
+    .grid__container h1 {
+        font-size: 20px;
+    }
+    .grid__container .grid__items {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__content .footer__links {
+        gap: 5px;
+    }
+    .footer__links a {
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer__rights {
+        text-align: center;
+    }
+}
+    
+
+
 @keyframes wiggle {
         0%, 10% {
           transform: rotate(0);
