@@ -477,6 +477,14 @@ nav .nav__container img {
     transform: scale(1.20);
 }
 
+/* Payment modal  */
+
+.modal-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 @media screen and (max-width: 728px) {
     .nav__items {
         display: flex;
