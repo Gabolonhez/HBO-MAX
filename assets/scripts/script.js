@@ -16,3 +16,4 @@ planoMultitelas.addEventListener('mouseover', () => {
 planoMultitelas.addEventListener('mouseout', () => {
   planoMobile.classList.remove('effect');
 });
+
