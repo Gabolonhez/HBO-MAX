@@ -5,14 +5,20 @@
     --secondary-color: #ff00e5;
     --tertiary-color: #b535f6;
     --fourth-color: #01011f;
+
     --btn-bg-color-gradient: linear-gradient(10deg, #9b34ef 10%, #490cb0 50%);
     --btn-link-bg-color: #fff;
     --btn-link-color: #000;
+
     --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);
+
     --divider-bg-color: linear-gradient(90deg, #5516ba, rgba(255, 0, 229, 0.5) 80%);
+
     --nav-bg-color: rgba(0, 0, 0, 0.3);
     --text-color: #fff;
+
     --link-color: #9e86ff;
+    
     --form-bg-color: rgba(211, 211, 211, 0.06);
     --form-field-bg-color: rgba(0, 0, 0, 0.2);
     --form-field-border: 1px solid rgba(255, 255, 255, 0.7);
@@ -84,7 +90,7 @@ nav .nav__container img {
     gap: 5rem;
 }
 
-.nav__items a:nth-child(2) {
+.nav__items a {
     background-color: var(--tertiary-color);
     border-radius: 100px;
     padding: 8px 26px;
@@ -93,7 +99,7 @@ nav .nav__container img {
     text-align: center;
 }
 
-.nav__items a:nth-child(2):hover {
+.nav__items a:hover {
     background-color: var(--btn-link-bg-color);
     color: var(--btn-link-color);
     transition: 0.5s ease-in-out;
