@@ -14,7 +14,23 @@
             <div class="nav__container">
                 <a href="#"><img src="./assets/images/hbo-logo.svg" alt="HBO MAX Logo"></a>
                 <div class="nav__items">
-                    <a href="./login.html">Entrar</a>
+                    <button id="loginBtn" type="button">Entrar</button>
+                    <div id="loginModal" class="modal">
+                        <div class="modal-content">
+                          <div class="modal-close">      
+                            <span class="close">&times;</span>
+                          </div>
+                        <div class="modal-form">
+                          <form id="loginForm">
+                            <label for="username">E-mail: </label>
+                            <input type="email" id="username" name="username"><br><br>
+                            <label for="password">Senha:  </label>
+                            <input type="password" id="password" name="password"><br><br>
+                            <button type="submit">Acessar</button>
+                          </form>
+                        </div>
+                        </div>
+                      </div>
                     <a href="#cards">Assine agora</a>
                 </div>
             </div>
