@@ -6,6 +6,7 @@ Protótipo do site da HBO Max responsivo, com algumas modificações.
 
 ## 🎯 Funcionalidades
 - [x] : Animações e interações com links, botões e imagens.
+- [x] : Modal de login.
 
 ## 💻 Tecnologias 
 - `HTML`
