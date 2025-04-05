@@ -12,3 +12,4 @@ Protótipo do site da HBO Max responsivo, com algumas modificações.
 - `HTML`
 - `CSS`
 - `Javascript`
+- `Git`
