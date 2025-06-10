@@ -12,3 +12,7 @@ Site da HBO Max responsivo, com algumas modificações.
 - `CSS`
 - `Javascript`
 - `Git`
+
+## 🌐 Link do projeto
+
+https://gerador-curriculos.vercel.app/ 
