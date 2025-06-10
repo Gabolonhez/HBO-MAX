@@ -15,4 +15,4 @@ Site da HBO Max responsivo, com algumas modificações.
 
 ## 🌐 Link do projeto
 
-https://gerador-curriculos.vercel.app/ 
+https://gabolonhez.github.io/HBO-MAX/
